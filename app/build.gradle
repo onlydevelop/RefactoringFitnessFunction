@@ -39,6 +39,11 @@ application {
     mainClass = 'com.example.App'
 }
 
+fitnessFunction {
+    agent = 'claude'
+    model = 'claude-sonnet-4-6'
+}
+
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
