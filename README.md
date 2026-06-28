@@ -27,6 +27,8 @@ fitnessFunction {
     fitnessFunction = 'high x 3.5 + medium x 2.7 + low x 1.8'
     threshold = 20
 }
+
+Plugin Repo: https://github.com/onlydevelop/FitnessFunctionPlugin
 ```
 
 # Sample Code
