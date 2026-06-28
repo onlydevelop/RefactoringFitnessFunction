@@ -42,6 +42,7 @@ application {
 fitnessFunction {
     agent = 'claude'
     model = 'claude-sonnet-4-6'
+    prompt = 'Analyze the refactoring fitness function'
 }
 
 tasks.named('test') {
