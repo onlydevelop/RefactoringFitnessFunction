@@ -42,7 +42,7 @@ application {
 fitnessFunction {
     agent = 'claude'
     model = 'claude-sonnet-4-6'
-    prompt = 'Analyze the refactoring fitness function'
+    prompt = 'Identify the code smells. Prioritize them as high, medium, low. Create a fitness function using count of high, medium, low issues as (high x 3.5 + medium x 2.7 + low x 1.8). Print the value of the fitness function. Fail the build if value > 20.'
 }
 
 tasks.named('test') {
