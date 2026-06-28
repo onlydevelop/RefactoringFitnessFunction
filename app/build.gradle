@@ -42,7 +42,9 @@ application {
 fitnessFunction {
     agent = 'claude'
     model = 'claude-sonnet-4-6'
-    prompt = 'Identify the code smells. Prioritize them as high, medium, low. Create a fitness function using count of high, medium, low issues as (high x 3.5 + medium x 2.7 + low x 1.8). Print the value of the fitness function. Fail the build if value > 20.'
+    prompt = 'Prioritize the code smells as high, medium, low. Print the value of the fitness function with individual scores. Fail the build if value exceeds threshold.'
+    fitnessFunction = 'high x 3.5 + medium x 2.7 + low x 1.8'
+    threshold = 20
 }
 
 tasks.named('test') {
