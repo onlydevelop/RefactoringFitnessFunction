@@ -28,8 +28,9 @@ fitnessFunction {
     threshold = 20
 }
 
-Plugin Repo: https://github.com/onlydevelop/FitnessFunctionPlugin
 ```
+
+Plugin Repo: https://github.com/onlydevelop/FitnessFunctionPlugin
 
 # Sample Code
 
