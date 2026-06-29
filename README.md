@@ -47,7 +47,7 @@ Original kata is available here: https://github.com/emilybache/GildedRose-Refact
 Running fitness check with model: claude-sonnet-4-6
 Prompt: Prioritize the code smells as high, medium, low. Fail the build if value of fitness function exceeds threshold. Give the 5 liner summerised output in ascii art format, not markdown.
 === Fitness Function Result ===
-```
+
 +=======================================================+
 |          CODE SMELL ANALYSIS - GILDED ROSE            |
 +=======================================================+
@@ -81,7 +81,6 @@ Prompt: Prioritize the code smells as high, medium, low. Fail the build if value
 |  [!] Refactor updateQuality into smaller methods      |
 |  [!] Encapsulate Item fields; remove direct access    |
 +=======================================================+
-```
 
 FITNESS_VALUE: 22.2
 Fitness value: 22.2 (threshold: 20.0)
@@ -103,6 +102,7 @@ Execution failed for task ':app:checkFitness'.
 BUILD FAILED in 9s
 9 actionable tasks: 9 executed
 Configuration cache entry stored.
+```
 
 # Disclaimer
 
