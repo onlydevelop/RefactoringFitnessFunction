@@ -42,7 +42,7 @@ application {
 fitnessFunction {
     agent = 'claude'
     model = 'claude-sonnet-4-6'
-    prompt = 'Prioritize the code smells as high, medium, low. Print the value of the fitness function with individual scores. Fail the build if value exceeds threshold.'
+    prompt = 'Prioritize the code smells as high, medium, low. Fail the build if value of fitness function exceeds threshold. Give the 5 liner summerised output in ascii art format, not markdown.'
     fitnessFunction = 'high x 3.5 + medium x 2.7 + low x 1.8'
     threshold = 20
 }
