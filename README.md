@@ -40,9 +40,9 @@ Original kata is available here: https://github.com/emilybache/GildedRose-Refact
 
 # Build Result
 
-### agentKey=my-api-key ./gradlew clean build
-
 ```
+$ agentKey=my-api-key ./gradlew clean build
+
 > Task :app:checkFitness
 Running fitness check with model: claude-sonnet-4-6
 Prompt: Prioritize the code smells as high, medium, low. Fail the build if value of fitness function exceeds threshold. Give the 5 liner summerised output in ascii art format, not markdown.
